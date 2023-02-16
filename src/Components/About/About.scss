@@ -1,0 +1,324 @@
+.About__wrapper{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+   
+    .About_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 510px;
+        height: 480;
+        span{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #066F14;
+        }
+        .global{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            color: #1A1A1A;
+        }
+        .lorems{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4A4A4A
+        }
+        .lorem_pl{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 160%;
+            color: #4A4A4A;
+        }
+        button{
+            padding: 16px 32px;
+            gap: 10px;
+            width: 155px;
+            height: 55px;
+            background: #066F14;
+            border-radius: 4px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 23px;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+}
+.product{
+    margin-top: 120px;
+    .product_text{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #1A1A1A;
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        width: 320px;
+        list-style: none;
+        margin-left:  530px;
+        margin-top: 30px;
+        li{
+            margin-left: 25px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            color: #4A4A4A;;
+            span{
+                color:  #066F14;;
+            }
+        }
+    }
+}
+.cards__wrapper{
+    margin: 0 auto;
+    width: 1210px;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .star_wrap{
+        margin-top: 20px;
+      display: flex;
+    //   align-items: center;
+      flex-direction: column;
+      justify-content: left;
+    }
+    .card{
+        width: 270px;
+        height: 283px;
+        background: #EAF2E5;
+    }
+    .bir{
+        padding-top: 20px;
+        padding-left: 60px;
+
+    }
+    .ikki{
+        padding-top: 20px;
+        padding-left: 75px;
+        background: #F0EBE6;
+    }
+    .uch{
+        padding-top: 20px;
+        padding-left: 75px;
+        background: #E2ECE4;
+    }
+    .tort{
+        padding-top: 20px;
+        padding-left: 55px;
+        background: #E7EEED;
+    }
+}
+.cards-wrap{
+   button{
+    width: 131px;
+    height: 55px;
+    padding: 16px 32px;
+    gap: 10px;
+    background: #066F14;
+    border-radius: 4px;
+    border: none;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #F0EBE6;
+    margin-top: 40px;
+    margin-left: 630px;
+   }
+}
+.customer_wrap{
+    
+    margin-left: 90px;
+    // justify-content: space-around;
+    margin-top: 90px;
+    display: flex;
+    .custom_text{
+        width: 502px;
+        height: 140px;
+        h1{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            color: #1A1A1A;
+        }
+        p{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4A4A4A;
+        }
+    }
+    .green__card{
+        margin-top: 30px;
+        transform: translateX(60px);
+        width: 597px;
+        height: 204px;
+        background-color: #066F14;
+        padding: 32px 32px;
+        .vec{
+            margin-left: 300px;
+            margin-right: 5px;
+            
+        }
+        .vector{
+            margin-top: -39px;
+           
+        }
+        .img__user{
+            display: flex;
+            align-items: center;
+            p{
+                padding-left: 10px;
+                color: #fff;
+                font-family: 'Nunito';
+                font-style: normal;
+                font-size: 18px;
+                line-height: 25px;
+            }
+            p:last-child{
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                color: #D9D9D9;
+                
+                
+            }
+        }
+    }
+    .lorem_wrap{
+        margin-top: 20px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #ECECEC;
+    }
+}
+.email__wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    width: 1140px;
+    height: 320px;
+    background-color: #DFFFE3;
+    margin: 100px auto;
+    border-radius: 6px;
+    img{
+        width: 262px;
+        height: 356px;
+        margin-bottom: 85px;
+        margin-right: 30px;
+
+    }
+    .email__text{
+        width: 475px;
+        margin-left: 59px;
+        .email_h{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+            color: #1A1A1A;
+        }
+        p{
+            
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            /* or 26px */
+
+
+            color: #4A4A4A;
+        }
+        .email_inp{
+            padding: 8px 8px 8px 20px;
+            gap: 10px;
+            width: 451px;
+            height: 56px;
+            background: #FFFFFF;
+            border-radius: 4px;
+            border: none;
+        }
+        button{
+            transform: translateY(-50px);
+            margin-left: 340px;
+            padding: 11px 16px;
+            width: 98px;
+            height: 40px;
+            background: #066F14;
+            border-radius: 4px;
+            border: none;
+            color: #fff;
+        }
+    }
+}
+
+.insta__wrapper{
+    img:hover{
+        opacity: 0.5;
+        transition: ease 0.4s;
+    }
+    .insta_text{
+        margin: 0 auto;
+        text-align: center;
+        width: 544px;
+        height: 151px;
+
+        .folow{
+            padding-bottom: 30px;
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 57px;
+            color: #1A1A1A;
+        }
+        p{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            text-align: center;
+            color: #4A4A4A;
+        }
+    }
+    .insta_img{
+        padding-top: 30px;
+        width: 1152px;
+        margin: 0 auto;
+    }
+}

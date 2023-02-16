@@ -1,0 +1,161 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30px;
+    height: 90px;
+    h1{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #1A1A1A;
+    }
+    ul{
+        margin-right: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        .mr{
+            margin-right: 120px;
+        }
+        li:hover{
+            cursor: pointer;
+            color: #066F14;
+        }
+        li{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1A1A1A;
+            margin-left: 60px;
+            button{
+                margin-right: 20px;
+                padding: 12px 16px;
+                background: #066F14;
+                border-radius: 4px;
+                border: none;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+.flex_container__wrapper{
+    display: flex;
+    justify-content: space-between;
+    img{
+        transform: translateY(-70px);
+    }
+    .texts__wrapper{
+        margin-top: 30px;
+        width: 548px;
+        height: 615px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .hero_name{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 72px;
+            line-height: 92px;
+            color: #1A1A1A;
+        }
+        .lorems{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #4A4A4A;
+        }
+        button{
+                width: 160px;
+                height: 55px;
+                padding: 12px 16px;
+                background: #066F14;
+                border-radius: 4px;
+                border: none;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+                text-align: center;
+                color: #FFFFFF;
+        }
+    }
+    .prise__container{
+        .wrap_prise{
+            p:last-child{
+                margin-top: 20px;
+                padding-left: 5px;
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 23px;
+                color: #1A1A1A;
+            }
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: {};
+        .prise{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 49px;
+            color: #001B04;
+        }
+    }
+
+}
+.flowers_wrap{
+    display: flex;
+    justify-content: space-between;
+    .flowers_card{
+        display: flex;
+        justify-content: space-between;
+        width:900px;
+        // border: 1px solid #000;
+        img{
+            width: 250px;
+            object-fit: cover;
+        }
+    }
+    .flower_texts{
+        width: 389px;
+        height: 207px;
+        .tex{
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 49px;
+            color: #1A1A1A;
+        }
+        p:last-child{
+            margin-top: 37px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: #4A4A4A;
+        }
+    }
+}
